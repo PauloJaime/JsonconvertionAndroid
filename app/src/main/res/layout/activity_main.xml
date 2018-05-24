@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.paulojaime.lab1.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"/>
+    <EditText
+        android:id="@+id/descrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category:"/>
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address Title:"/>
+    <EditText
+        android:id="@+id/addressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address Street:"/>
+    <EditText
+        android:id="@+id/addressStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elevation:"/>
+    <EditText
+        android:id="@+id/elevation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude:"/>
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude:"/>
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="17"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+</LinearLayout>
